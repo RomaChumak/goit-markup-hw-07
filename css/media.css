@@ -1,0 +1,81 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 498px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  /* hero */
+  .hero {
+    width: 736px;
+    padding-top: 112px;
+    padding-bottom: 108px;
+  }
+  .hero-title {
+    width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  /* advantages */
+  .advantages {
+    width: 736px;
+  }
+  .section-title {
+    text-align: left;
+  }
+  .section-text {
+    width: 356px;
+  }
+  .section-list {
+    margin: 0;
+    display: flex;
+    column-gap: 24px;
+  }
+  .section-lis {
+    width: 356px;
+  }
+  /* team */
+  .team > .container {
+    width: 552px;
+  }
+  .team {
+    width: 768px;
+    padding-top: 96px;
+    padding-bottom: 104px;
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+  .team-lis {
+    width: 264px;
+    height: 428px;
+  }
+  /* customers */
+  .team > .customers {
+    width: 552px;
+  }
+  .customers {
+    width: 768px;
+  }
+  .customers-list-icon {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .customers-link-icon {
+    width: 168px;
+    height: 88px;
+  }
+  .customers-icon {
+    width: 104px;
+  }
+}

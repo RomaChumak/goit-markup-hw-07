@@ -39,7 +39,7 @@ body {
   color: #434455;
 }
 .container {
-  width: 1158px;
+  width: 428px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -139,7 +139,7 @@ body {
 }
 /*  hero */
 .hero {
-  max-width: 1440px;
+  width: 396px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -153,11 +153,11 @@ body {
   margin: 0 auto;
 }
 .hero-title {
-  width: 496px;
+  width: 320px;
   margin: auto;
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -192,20 +192,28 @@ body {
 }
 /* section */
 .advantages {
+  width: 396px;
   background-color: #ffffff;
-  padding-bottom: 60px;
-  padding-top: 120px;
+  padding-bottom: 96px;
+  padding-top: 96px;
 }
-
+.advanteges-icons {
+  width: 0;
+  height: 0;
+}
 .section-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 8px;
 }
 .section-text {
+  width: 396px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -213,24 +221,16 @@ body {
 }
 .section-list {
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
+  row-gap: 72px;
 }
 
 .section-lis {
-  width: 264px;
-  margin: 0 24px 0 0;
+  width: 396px;
 }
 .lis {
   margin-right: 0;
-}
-.advanteges-icons-container {
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  background-color: #f4f4fd;
-  border: 1px solid#f4f4fd;
-  margin-bottom: 8px;
-  padding: 24px 100px;
 }
 
 /* What are we doing */
@@ -259,6 +259,7 @@ body {
 
 /* team */
 .team {
+  width: 396px;
   background: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -293,9 +294,11 @@ body {
 }
 .team-list {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  justify-content: center;
 }
 .team-lis {
-  margin: 0 24px 0 0;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -332,15 +335,17 @@ body {
 }
 /* customers */
 .customers {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  width: 396px;
+  height: 88px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .customers-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 72px;
@@ -348,11 +353,13 @@ body {
 }
 .customers-list-icon {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  column-gap: 16px;
 }
 
 .customers-link-icon {
-  width: 168px;
+  width: 190px;
   height: 88px;
   display: block;
   border: 1px solid#8e8f99;
