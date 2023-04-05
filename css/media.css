@@ -8,12 +8,12 @@
 
   /* hero */
   .hero {
-    width: 736px;
+    width: 768px;
     padding-top: 112px;
     padding-bottom: 108px;
   }
   .hero-title {
-    width: 496px;
+    min-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.1;
@@ -21,9 +21,15 @@
     letter-spacing: 0.02em;
     color: #ffffff;
   }
+  .btn {
+    margin-top: 40px;
+  }
   /* advantages */
-  .advantages {
+  .advantages > .container {
     width: 736px;
+  }
+  .advantages {
+    width: 768px;
   }
   .section-title {
     text-align: left;
@@ -41,7 +47,7 @@
   }
   /* team */
   .team > .container {
-    width: 582px;
+    width: 584px;
   }
   .team {
     width: 768px;
@@ -59,17 +65,18 @@
     height: 428px;
   }
   /* customers */
-  .team > .customers {
-    width: 582px;
+  .customers > .container {
+    width: 584px;
   }
   .customers {
-    min-width: 768px;
+    width: 768px;
   }
   .customers-list-icon {
     display: flex;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
+    width: 552px;
   }
   .customers-link-icon {
     width: 168px;
@@ -86,8 +93,11 @@
     padding-right: 15px;
     margin: 0 auto;
   }
+  /* hero */
   .hero {
     width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
   .hero-title {
     width: 496px;
@@ -98,6 +108,13 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+  }
+  .btn {
+    margin-top: 48px;
+  }
+  /* advantages */
+  .advantages > .container {
+    width: 1158px;
   }
   .advantages {
     width: 1440px;
@@ -120,6 +137,10 @@
   .section-lis {
     width: 264px;
   }
+  .section-list {
+    width: 1128px;
+    column-gap: 24px;
+  }
   .section-title {
     font-weight: 500;
     font-size: 20px;
@@ -135,6 +156,11 @@
     letter-spacing: 0.02em;
     color: #434455;
   }
+  /* work */
+  .work {
+    width: 1128px;
+  }
+  /* team */
   .team > .container {
     width: 1158px;
   }
@@ -147,5 +173,17 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
+  }
+  /* customers */
+  .customers > .container {
+    width: 1158px;
+  }
+  .customers {
+    width: 1440px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customers-list-icon {
+    width: 1128px;
   }
 }
