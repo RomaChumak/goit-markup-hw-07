@@ -41,7 +41,7 @@
   }
   /* team */
   .team > .container {
-    width: 552px;
+    width: 582px;
   }
   .team {
     width: 768px;
@@ -60,7 +60,7 @@
   }
   /* customers */
   .team > .customers {
-    width: 552px;
+    width: 582px;
   }
   .customers {
     min-width: 768px;
@@ -135,13 +135,17 @@
     letter-spacing: 0.02em;
     color: #434455;
   }
+  .team > .container {
+    width: 1158px;
+  }
   .team {
-    width: 100%;
+    width: 1440px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .team-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    width: 264px;
   }
 }

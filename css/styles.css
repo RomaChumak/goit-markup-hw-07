@@ -39,7 +39,7 @@ body {
   color: #434455;
 }
 .container {
-  width: 428px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -264,8 +264,8 @@ body {
 .team {
   width: 396px;
   background: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 128px;
+  padding-bottom: 96px;
   margin: 0 auto;
 }
 .team-title {
@@ -312,6 +312,7 @@ body {
   padding: 32px 16px;
 }
 .team-soc-list {
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -340,7 +341,6 @@ body {
 /* customers */
 .customers {
   width: 396px;
-
   padding-top: 96px;
   padding-bottom: 96px;
   margin-left: auto;
@@ -362,6 +362,7 @@ body {
   flex-wrap: wrap;
   row-gap: 72px;
   column-gap: 16px;
+  width: 396px;
 }
 
 .customers-link-icon {
