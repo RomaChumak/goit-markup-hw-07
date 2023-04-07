@@ -534,7 +534,6 @@ body {
   border-radius: 2px;
 }
 .portfolio {
-  width: 428px;
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -583,7 +582,6 @@ body {
   color: #434455;
 }
 .mune-btn {
-  min-width: 263px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 16px;
@@ -639,11 +637,12 @@ body {
   border: 1px solid#e7e9fc;
   border-top: 0;
 }
-
+.portfolio-li {
+  margin-right: 24px;
+}
 .btn-marketing {
   margin-right: 0;
 }
-
 .backdrop {
   display: flex;
   justify-content: center;
