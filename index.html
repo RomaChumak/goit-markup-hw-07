@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="logo-header link"
@@ -53,8 +53,73 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg width="32" height="22" class="mune-open">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="menu-mob is-hidden" data-menu>
+        <button class="close-btn" data-menu-close>
+          <svg width="8" height="8" class="modal-icon">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <ul class="menu-mob list studio-menu">
+          <li>
+            <a href="./index.html" class="menu-mob-nav link studio-nav"
+              >Studio</a
+            >
+          </li>
+          <li>
+            <a href="./portfolio.html" class="menu-mob-nav link">Portfolio</a>
+          </li>
+          <li><a href="" class="menu-mob-nav link">Contacts</a></li>
+        </ul>
+        <ul class="menu-mail-tel list">
+          <li>
+            <a href="tel:+110001111111" class="menu-address-link link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="menu-address-link link"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="soc-menu-list">
+          <li class="soc-menu-item">
+            <a href="" class="soc-menu-link">
+              <svg>
+                <use></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-menu-item">
+            <a href="" class="soc-menu-link">
+              <svg>
+                <use></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-menu-item">
+            <a href="" class="soc-menu-link">
+              <svg>
+                <use></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-menu-item">
+            <a href="" class="soc-menu-link">
+              <svg>
+                <use></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
     <main>
       <!-- hero -->
       <section class="hero">
@@ -528,5 +593,6 @@
       </div>
     </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
