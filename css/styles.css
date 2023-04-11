@@ -68,7 +68,7 @@ body {
 /* header */
 
 .header {
-  width: 428px;
+  width: 320px;
   background-color: #ffffff;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -91,6 +91,10 @@ body {
 .mail-tel {
   display: none;
 }
+.open {
+  width: 32px;
+  height: 22px;
+}
 .menu-open-btn {
   border: none;
   display: block;
@@ -101,12 +105,12 @@ body {
   width: 100%;
   height: 100%;
   position: fixed;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
 }
 
 /*  hero */
 .hero {
-  width: 428px;
+  width: 320px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -161,7 +165,7 @@ body {
 }
 /* section */
 .advantages {
-  width: 396px;
+  width: 320px;
   background-color: #ffffff;
   padding-bottom: 96px;
   padding-top: 96px;
@@ -174,15 +178,15 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
 }
 .section-text {
-  width: 396px;
+  width: 288px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -191,10 +195,11 @@ body {
 }
 .section-list {
   margin: auto;
+  width: 288px;
 }
 
 .section-lis {
-  width: 396px;
+  width: 288px;
   margin-bottom: 72px;
 }
 .lis {
@@ -209,7 +214,7 @@ body {
 
 /* team */
 .team {
-  width: 428px;
+  width: 320px;
   background: #f4f4fd;
   padding-top: 128px;
   padding-bottom: 96px;
@@ -289,7 +294,7 @@ body {
 }
 /* customers */
 .customers {
-  width: 428px;
+  width: 320px;
   padding-top: 96px;
   padding-bottom: 96px;
   margin-left: auto;
@@ -311,8 +316,11 @@ body {
   flex-wrap: wrap;
   row-gap: 72px;
   column-gap: 16px;
+  justify-content: center;
+  align-items: center;
   width: 396px;
   margin: 0 auto;
+  width: 288px;
 }
 
 .customers-link-icon {
@@ -341,12 +349,14 @@ body {
 }
 /* footer */
 .footer {
-  width: 428px;
+  width: 320px;
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .footer-container {
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 72px;
@@ -422,15 +432,18 @@ body {
   background-color: #31d0aa;
 }
 .fotter-subscribe {
-  width: 398px;
+  width: 320px;
   margin: auto;
 }
 .input-container {
-  width: 453px;
+  width: 320px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
   gap: 16px;
 }
+
 .subscribe-title {
   font-weight: 500;
   font-size: 16px;
@@ -444,7 +457,10 @@ body {
 }
 
 .input-footer {
-  width: 398px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  width: 290px;
   height: 40px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -454,13 +470,13 @@ body {
   outline: transparent;
   padding: 8px 16px;
 }
-
 .footer-btn {
   width: 165px;
   height: 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   text-align: center;
