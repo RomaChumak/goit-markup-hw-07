@@ -73,7 +73,6 @@
     width: 768px;
     border-bottom: 1px solid#e7e9fc;
     padding: 0;
-    height: 70px;
   }
 
   .header-nav {
@@ -115,14 +114,13 @@
     color: #404bbf;
   }
   .address {
+    padding-bottom: 12px;
     margin-left: 118px;
     font-style: normal;
   }
   .mail-tel {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 24px;
-    padding-bottom: 24px;
   }
   .address-link {
     font-weight: 400;
