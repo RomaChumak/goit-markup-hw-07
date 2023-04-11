@@ -115,6 +115,7 @@
     color: #404bbf;
   }
   .address {
+    padding-top: 24px;
     padding-bottom: 12px;
     margin-left: 118px;
     font-style: normal;
@@ -258,6 +259,10 @@
   }
   .input-footer {
     width: 264px;
+  }
+  .modal {
+    width: 408px;
+    min-height: 586px;
   }
 }
 
@@ -471,5 +476,8 @@
   .fotter-subscribe {
     margin-left: 80px;
     width: 453px;
+  }
+  .modal {
+    min-height: 584px;
   }
 }
