@@ -318,12 +318,12 @@
   .address {
     font-style: normal;
     margin-left: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   .mail-tel {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
   }
   .address-link {
     font-weight: 400;
