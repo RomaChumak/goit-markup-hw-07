@@ -6,13 +6,13 @@
     width: 428px;
   }
   .header {
-    width: 428px;
+    width: 458px;
   }
   .hero {
     width: 428px;
   }
   .advantages {
-    width: 428px;
+    width: 458px;
   }
   .section-text {
     width: 396px;
@@ -27,10 +27,10 @@
     width: 396px;
   }
   .team {
-    width: 428px;
+    width: 458px;
   }
   .customers {
-    width: 428px;
+    width: 458px;
   }
   .customers-list-icon {
     display: flex;
@@ -42,13 +42,13 @@
   }
 
   .footer {
-    width: 428px;
+    width: 458px;
   }
   .input-footer {
     width: 428px;
   }
   .fotter-subscribe {
-    width: 428px;
+    width: 458px;
   }
   .input-container {
     width: 428px;
@@ -138,6 +138,11 @@
 
   /* hero */
   .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bs-tab.png);
     width: 768px;
     padding-top: 112px;
     padding-bottom: 108px;
@@ -329,6 +334,11 @@
   }
   /* hero */
   .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg.jpg);
     width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
