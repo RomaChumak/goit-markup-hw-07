@@ -1,4 +1,12 @@
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+}
 @media screen and (min-width: 768px) {
+  .menu-open-btn {
+    display: none;
+  }
   .container {
     width: 498px;
     padding-left: 15px;
@@ -40,6 +48,8 @@
   .section-list {
     width: 736px;
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
     column-gap: 24px;
   }
   .section-lis {
@@ -72,9 +82,6 @@
     width: 768px;
   }
   .customers-list-icon {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 72px;
     column-gap: 24px;
     width: 552px;
   }
@@ -84,6 +91,39 @@
   }
   .customers-icon {
     width: 104px;
+  }
+  /* footer */
+  .footer {
+    width: 768px;
+  }
+  .footer-container {
+    width: 584px;
+  }
+  .logo-footer {
+    justify-content: start;
+    align-items: start;
+  }
+  .footer-container-icon {
+    width: 264px;
+    margin: 0;
+  }
+  .footer-soc-container {
+    margin: 0;
+  }
+  .footer-title {
+    justify-content: start;
+    align-items: start;
+  }
+  .fotter-subscribe {
+    width: 453px;
+    margin: 0;
+  }
+  .subscribe-title {
+    justify-content: start;
+    align-items: start;
+  }
+  .input-footer {
+    width: 264px;
   }
 }
 
@@ -264,5 +304,27 @@
   }
   .customers-list-icon {
     width: 1128px;
+  }
+  /* footer */
+  .footer {
+    width: 1440px;
+  }
+  .footer-container {
+    width: 1128px;
+    flex-wrap: nowrap;
+  }
+  .footer-container-icon {
+    width: 264px;
+  }
+  .footer-text {
+    width: 264px;
+  }
+  .footer-soc-container {
+    margin-left: 120px;
+    width: 208px;
+  }
+  .fotter-subscribe {
+    margin-left: 80px;
+    width: 453px;
   }
 }

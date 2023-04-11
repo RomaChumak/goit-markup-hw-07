@@ -190,17 +190,16 @@ body {
   color: #434455;
 }
 .section-list {
-  display: flex;
-  flex-wrap: wrap;
   margin: auto;
-  row-gap: 72px;
 }
 
 .section-lis {
   width: 396px;
+  margin-bottom: 72px;
 }
 .lis {
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 /* What are we doing */
@@ -245,15 +244,17 @@ body {
   margin-bottom: 8px;
 }
 .team-list {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 72px;
-  justify-content: center;
+  margin: auto;
+  width: 264px;
 }
 .team-lis {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 72px;
+}
+.team-item {
+  margin-bottom: 0;
 }
 .contur {
   background-color: #ffffff;
@@ -340,9 +341,20 @@ body {
 }
 /* footer */
 .footer {
+  width: 428px;
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  column-gap: 24px;
+}
+.footer-container-icon {
+  width: 268px;
+  margin: auto;
 }
 .footer-text {
   margin-top: 16px;
@@ -361,13 +373,14 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-studio {
   color: #f4f4fd;
 }
-.footer-container {
-  display: flex;
-}
+
 .footer-title {
   font-weight: 500;
   font-size: 16px;
@@ -375,9 +388,12 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer-soc-container {
-  margin-left: 120px;
+  margin: auto;
 }
 .footer-soc-list {
   display: flex;
@@ -406,11 +422,14 @@ body {
   background-color: #31d0aa;
 }
 .fotter-subscribe {
-  margin-left: 80px;
+  width: 398px;
+  margin: auto;
 }
 .input-container {
+  width: 453px;
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 .subscribe-title {
   font-weight: 500;
@@ -419,10 +438,13 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .input-footer {
-  width: 264px;
+  width: 398px;
   height: 40px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
