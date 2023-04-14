@@ -69,7 +69,7 @@ body {
 
 .header {
   margin: 0 auto;
-  width: 320px;
+
   background-color: #ffffff;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -185,7 +185,6 @@ body {
 
 /*  hero */
 .hero {
-  width: 320px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -253,7 +252,6 @@ body {
 }
 /* section */
 .advantages {
-  width: 320px;
   background-color: #ffffff;
   padding-bottom: 96px;
   padding-top: 96px;
@@ -274,7 +272,6 @@ body {
   margin-bottom: 8px;
 }
 .section-text {
-  width: 288px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -302,7 +299,6 @@ body {
 
 /* team */
 .team {
-  width: 320px;
   background: #f4f4fd;
   padding-top: 128px;
   padding-bottom: 96px;
@@ -382,7 +378,6 @@ body {
 }
 /* customers */
 .customers {
-  width: 320px;
   padding-top: 96px;
   padding-bottom: 96px;
   margin-left: auto;
@@ -438,7 +433,6 @@ body {
 /* footer */
 .footer {
   margin: 0 auto;
-  width: 320px;
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
