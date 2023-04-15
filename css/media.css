@@ -5,7 +5,9 @@
   .header-container {
     width: 428px;
   }
-
+  .hero {
+    width: 428px;
+  }
   .section-text {
     width: 396px;
   }
@@ -40,6 +42,9 @@
   .input-container {
     width: 398px;
     align-items: center;
+  }
+  .modal {
+    width: 392px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -125,6 +130,7 @@
 
   /* hero */
   .hero {
+    width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -331,6 +337,7 @@
   }
   /* hero */
   .hero {
+    width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -459,6 +466,7 @@
   .footer-container {
     width: 1128px;
     flex-wrap: nowrap;
+    gap: 0;
   }
   .footer-container-icon {
     width: 264px;
@@ -469,6 +477,12 @@
   .footer-soc-container {
     margin-left: 120px;
     width: 208px;
+  }
+  .input-container {
+    gap: 0;
+  }
+  .input-footer {
+    width: 264px;
   }
   .fotter-subscribe {
     margin-left: 80px;
