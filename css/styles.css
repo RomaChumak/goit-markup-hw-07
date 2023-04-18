@@ -261,6 +261,9 @@ body {
   width: 0;
   height: 0;
 }
+.advanteges-icons-container {
+  display: none;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
